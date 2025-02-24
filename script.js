@@ -111,21 +111,6 @@ const updateImageLinks = () => {
     })
 }
 
-// Se você estiver usando qualquer outro editor de código, substitua a função acima por essa função:
-
-/*
-const updateImageLinks = () => {
-  document.querySelectorAll('img').forEach((img) => {
-    const src = img.getAttribute("src"); 
-    if (src && !src.startsWith("http")) {  
-      img.src = `https://raw.githubusercontent.com/maykbrito/my-public-files/main/nlw-19/${src}`;
-    }
-  });
-};
-
-*/
-
-
 const startApp = () => {
     const content = `
     <main>
